@@ -1,0 +1,49 @@
+[{
+  "_id": {
+    "$oid": "642bd83351a152c18eb0cad4"
+  },
+  "username": "admin",
+  "password": "wow123",
+  "isAdmin": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642bd8d851a152c18eb0caf3"
+  },
+  "username": "user1",
+  "password": "tWKp4!WphHsVCL9",
+  "isAdmin": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642bd96151a152c18eb0cb19"
+  },
+  "username": "user2",
+  "password": "whatif",
+  "isAdmin": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642bdacf51a152c18eb0cb57"
+  },
+  "username": "user3",
+  "password": "secretlang",
+  "isAdmin": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642bdc7751a152c18eb0cc28"
+  },
+  "username": "user4",
+  "password": "user4pass",
+  "isAdmin": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642bdd0051a152c18eb0cd27"
+  },
+  "username": "user5",
+  "password": "5passuser",
+  "isAdmin": false,
+  "__v": 0
+}]

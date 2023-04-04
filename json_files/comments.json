@@ -1,0 +1,113 @@
+[{
+  "_id": {
+    "$oid": "642bd8cb51a152c18eb0cae9"
+  },
+  "message": "mainit",
+  "authorID": {
+    "$oid": "642bd83351a152c18eb0cad4"
+  },
+  "postID": {
+    "$oid": "642bd8b951a152c18eb0cad9"
+  },
+  "isAnonymous": true,
+  "dateCreated": {
+    "$date": "2023-04-04T07:59:07.184Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642bd94c51a152c18eb0cb0a"
+  },
+  "message": "Quisque lacinia, arcu eu placerat euismod, arcu est pellentesque nunc, sit amet sodales nisl diam et velit.",
+  "authorID": {
+    "$oid": "642bd8d851a152c18eb0caf3"
+  },
+  "postID": {
+    "$oid": "642bd94251a152c18eb0cafd"
+  },
+  "isAnonymous": false,
+  "dateCreated": {
+    "$date": "2023-04-04T08:01:16.912Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642bdaa051a152c18eb0cb29"
+  },
+  "message": "Duis eget diam justo.",
+  "authorID": {
+    "$oid": "642bd96151a152c18eb0cb19"
+  },
+  "postID": {
+    "$oid": "642bd8b951a152c18eb0cad9"
+  },
+  "isAnonymous": false,
+  "dateCreated": {
+    "$date": "2023-04-04T08:06:56.975Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642bdc9a51a152c18eb0cc9c"
+  },
+  "message": "Suspendisse potenti.",
+  "authorID": {
+    "$oid": "642bdc7751a152c18eb0cc28"
+  },
+  "postID": {
+    "$oid": "642bdc1451a152c18eb0cb67"
+  },
+  "isAnonymous": false,
+  "dateCreated": {
+    "$date": "2023-04-04T08:15:22.279Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642bdca151a152c18eb0ccb4"
+  },
+  "message": "Aenean sit amet vulputate libero.",
+  "authorID": {
+    "$oid": "642bdc7751a152c18eb0cc28"
+  },
+  "postID": {
+    "$oid": "642bdc5951a152c18eb0cbd7"
+  },
+  "isAnonymous": true,
+  "dateCreated": {
+    "$date": "2023-04-04T08:15:29.699Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642bdcba51a152c18eb0ccea"
+  },
+  "message": "Vestibulum accumsan a justo a malesuada.",
+  "authorID": {
+    "$oid": "642bdc7751a152c18eb0cc28"
+  },
+  "postID": {
+    "$oid": "642bdcb551a152c18eb0cccd"
+  },
+  "isAnonymous": false,
+  "dateCreated": {
+    "$date": "2023-04-04T08:15:54.735Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642bdd2251a152c18eb0cdc6"
+  },
+  "message": "sakit",
+  "authorID": {
+    "$oid": "642bdd0051a152c18eb0cd27"
+  },
+  "postID": {
+    "$oid": "642bdd1b51a152c18eb0cd82"
+  },
+  "isAnonymous": true,
+  "dateCreated": {
+    "$date": "2023-04-04T08:17:38.439Z"
+  },
+  "__v": 0
+}]

@@ -1,0 +1,85 @@
+[{
+  "_id": {
+    "$oid": "642bd8b951a152c18eb0cad9"
+  },
+  "message": "what a sunny day",
+  "authorID": {
+    "$oid": "642bd83351a152c18eb0cad4"
+  },
+  "isAnonymous": false,
+  "tag": "#FW86570",
+  "dateCreated": {
+    "$date": "2023-04-04T07:58:49.436Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642bd94251a152c18eb0cafd"
+  },
+  "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sodales lorem ut congue euismod.",
+  "authorID": {
+    "$oid": "642bd8d851a152c18eb0caf3"
+  },
+  "isAnonymous": false,
+  "tag": "#FW18187",
+  "dateCreated": {
+    "$date": "2023-04-04T08:01:06.251Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642bdc1451a152c18eb0cb67"
+  },
+  "message": "Donec sodales, erat vel pellentesque mollis, eros turpis pharetra ante, quis finibus neque velit eu enim.",
+  "authorID": {
+    "$oid": "642bdacf51a152c18eb0cb57"
+  },
+  "isAnonymous": true,
+  "tag": "#FW86133",
+  "dateCreated": {
+    "$date": "2023-04-04T08:13:08.372Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642bdc5951a152c18eb0cbd7"
+  },
+  "message": "Morbi ultrices, justo vitae commodo commodo, dolor risus sagittis nisi, vitae tempor leo turpis vel urna.",
+  "authorID": {
+    "$oid": "642bd96151a152c18eb0cb19"
+  },
+  "isAnonymous": false,
+  "tag": "#FW70801",
+  "dateCreated": {
+    "$date": "2023-04-04T08:14:17.074Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642bdcb551a152c18eb0cccd"
+  },
+  "message": "Vivamus sed urna et sem facilisis ultrices vitae vel orci. Cras tempus feugiat faucibus. Maecenas libero lacus, faucibus ac bibendum elementum, rhoncus id ipsum. Aenean porttitor massa in arcu blandit, eu cursus ex pulvinar. Donec et nulla vel ex sagittis hendrerit et at quam. Aenean a pretium turpis. Aliquam sed turpis faucibus urna pellentesque mattis ultrices eget nibh. Donec mattis maximus rhoncus. Vestibulum tempus nunc odio, eu consequat arcu auctor id. Suspendisse elementum lacinia velit, ac lacinia arcu condimentum nec. Nulla id viverra augue.",
+  "authorID": {
+    "$oid": "642bdc7751a152c18eb0cc28"
+  },
+  "isAnonymous": false,
+  "tag": "#FW52120",
+  "dateCreated": {
+    "$date": "2023-04-04T08:15:49.237Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642bdd1b51a152c18eb0cd82"
+  },
+  "message": "what if mahal ka lang ng mama mo as a friend :(",
+  "authorID": {
+    "$oid": "642bdd0051a152c18eb0cd27"
+  },
+  "isAnonymous": true,
+  "tag": "#FW7090",
+  "dateCreated": {
+    "$date": "2023-04-04T08:17:31.287Z"
+  },
+  "__v": 0
+}]
