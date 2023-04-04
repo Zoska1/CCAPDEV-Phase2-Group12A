@@ -1,0 +1,14 @@
+#wrapper {
+    margin: 20px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 30rem;
+}
+
+hr {
+    padding: 0;
+}

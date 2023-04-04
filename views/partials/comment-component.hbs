@@ -1,0 +1,10 @@
+<i>"{{message}}"</i> -<a class="text-decoration-none" href="/profile/{{authorID}}">{{commentAuthorName}}</a><br>
+
+<span class="fs-6 fw-lighter">{{date}}</span>
+
+<form method="post">
+    {{#if canEditComment}}
+    <input class="btn btn-secondary" type="submit" value="Edit" formaction="/editCommentForm/{{commentID}}" formmethod="get">
+    <input class="btn btn-danger" type="submit" value="Delete" formaction="/deleteComment/{{commentID}}" formmethod="post">
+    {{/if}}
+</form>

@@ -1,0 +1,15 @@
+<nav class="navbar navbar-dark bg-dark sticky-top">
+    {{> home-button}}
+</nav>
+
+<div class="card card-body" style="width: 15rem; margin: 0 auto; margin-top: 20px;">
+
+    <form action="/register" method="post">
+        <input type="text" name="username" placeholder="Username" value="{{username}}" required><br><br>
+        <input type="password" name="password" placeholder="Password" required><br><br>
+        <input type="password" name="confirmPassword" placeholder="Confirm Password" required><br><br>
+        <input type="submit" value="Register">
+    </form>
+    {{error}}
+
+</div>

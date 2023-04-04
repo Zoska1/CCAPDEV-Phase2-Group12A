@@ -1,0 +1,13 @@
+<nav class="navbar navbar-dark bg-dark sticky-top">
+    {{> home-button}}
+</nav>
+
+<div class="card card-body" style="width: 15rem; margin: 0 auto; margin-top: 20px;">
+
+    <form action="/createPost" method="post">
+        <input type="text" name="message" placeholder="Message" required><br><br>
+        <label><input type="checkbox" name="isAnonymous"> Post anonymously?</label><br><br>
+        <input type="submit" value="Post">
+    </form>
+
+</div>

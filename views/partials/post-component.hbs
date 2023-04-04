@@ -1,0 +1,29 @@
+<div class="card card-body">
+    <div class="fs-4">{{message}}</div>
+    <div class="fs-6 fw-lighter">{{tag}}</div><br>
+    <a class="text-decoration-none" href="/profile/{{postAuthorID}}">{{postAuthorName}}</a><br>
+    <div class="fs-6 fw-lighter">{{date}}</div>
+
+    <hr>
+    <form method="post">
+        👍{{likes}}
+        {{#if liked}}
+        <input class="btn btn-danger" type="submit" value="Dislike" formaction="/dislike/{{postID}}" formmethod="post">
+        {{else}}
+        <input class="btn btn-success" type="submit" value="Like" formaction="/like/{{postID}}" formmethod="post">
+        {{/if}}
+        <input class="btn btn-secondary" type="submit" value="Comment" formaction="/createCommentForm/{{postID}}" formmethod="get">
+        {{#if canEditPost}}
+        <input class="btn btn-secondary" type="submit" value="Edit" formaction="/post/{{postID}}" formmethod="get">
+        <input class="btn btn-danger" type="submit" value="Delete" formaction="/deletePost/{{postID}}" formmethod="post">
+        {{/if}}
+    </form>
+    <hr>
+
+    <ul>
+        {{#each comments}}
+        <li>{{>comment-component}}</li><br>
+        {{/each}}
+    </ul>
+</div>
+<br>

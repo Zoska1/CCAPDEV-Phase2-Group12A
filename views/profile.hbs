@@ -1,0 +1,29 @@
+<nav class="navbar navbar-dark bg-dark sticky-top">
+    {{> home-button}}
+    {{> profile-button}}
+    {{> logout-button}}
+</nav>
+
+<div id="wrapper">
+    <div class="card card-body">
+        <center>
+            <h1>{{username}}'s Profile</h1>
+
+            {{#if canManageAdmins}}
+            <br>
+            <form method="post">
+                {{#if isAdmin}}
+                <input type="submit" value="Demote to standard user" formaction="/demote/{{userID}}">
+                {{else}}
+                <input type="submit" value="Promote to administrator" formaction="/promote/{{userID}}">
+                {{/if}}
+            </form>
+            <br>
+            {{/if}}
+        </center>
+    </div><br>
+
+    {{#each posts}}
+    {{>post-component}}
+    {{/each}}
+</div>

@@ -1,0 +1,11 @@
+<nav class="navbar navbar-dark bg-dark sticky-top">
+    {{> home-button}}
+</nav>
+
+<div class="card card-body" style="width: 15rem; margin: 0 auto; margin-top: 20px;">
+    <form action="/editComment/{{commentID}}" method="post">
+        <input type="text" name="message" placeholder="Message" value="{{message}}" required><br><br>
+        <input type="submit" value="Comment">
+    </form>
+
+</div>

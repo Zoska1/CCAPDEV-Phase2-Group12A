@@ -1,0 +1,23 @@
+<nav class="navbar navbar-dark bg-dark sticky-top">
+    {{> home-button}}
+    {{> profile-button}}
+    {{> logout-button}}
+</nav>
+
+
+<div id="wrapper">
+    <div class="card card-body">
+        <center>
+            <h1>Home</h1>
+            <br>
+            <form action="post" method="get">
+                <input class="btn btn-primary" type="submit" value="Create Post">
+            </form>
+            <br>
+        </center>
+    </div><br>
+
+    {{#each posts}}
+    {{>post-component}}
+    {{/each}}
+</div>
